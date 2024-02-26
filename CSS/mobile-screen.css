@@ -1,0 +1,85 @@
+body {
+  background-color: var(--white);
+  width: 100%;
+}
+.container {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+/* Start Result */
+.result {
+  width: 100%;
+  border-radius: 0 0 2rem 2rem;
+  height: 20rem;
+}
+.result-score-box {
+  padding: 1rem 2rem;
+}
+.result-score-box h5 {
+  font-size: 0.9rem;
+  margin: 0;
+}
+.circle {
+  width: 7rem;
+  height: 7rem;
+}
+.score-box {
+  margin-top: 1.5rem;
+}
+.score {
+  font-size: 2rem;
+}
+.evaluation-box {
+  margin-top: 2rem;
+}
+.evaluation {
+  font-size: 1.3rem;
+}
+.evaluation-message {
+  font-size: 0.95rem;
+}
+/* End Result */
+/* Start Summary */
+.summary {
+  width: 100%;
+  height: auto;
+}
+.summary h5 {
+  font-size: 1rem;
+}
+.summary-result {
+  width: 75%;
+  margin: 1rem auto;
+}
+
+.reactions-score,
+.verbal-score,
+.memory-score,
+.visual-score {
+  font-size: 0.8rem;
+}
+.reactions-text,
+.memory-text,
+.verbal-text,
+.visual-text {
+  font-size: 0.8rem;
+}
+/* End Summary */
+/* Start Button */
+.btn {
+  width: 75%;
+  margin: 2.5rem auto 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+/* End Button */
+.attribution {
+  padding: 0 3rem;
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+}

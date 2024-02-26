@@ -1,0 +1,213 @@
+/* Start Main Components */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+:root {
+  --light-red: hsl(0, 100%, 67%);
+  --orange-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  --light-slate-blue-background: hsl(252, 100%, 67%);
+  --light-royal-blue-background: hsl(241, 81%, 54%);
+  --violet-blue-circle: hsla(256, 72%, 46%, 1);
+  --persian-blue: hsla(241, 72%, 46%, 0);
+  --pale-blue: hsl(221, 100%, 96%);
+  --white: #fff;
+  --light-lavander: hsl(241, 100%, 89%);
+  --dark-grey-blue: hsl(224, 30%, 27%);
+}
+/* End Main Components */
+/* Start Main Page Style */
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: #dedede;
+}
+.container {
+  width: 40rem;
+  height: 26rem;
+  background-color: var(--white);
+  margin: 3rem auto;
+  border-radius: 2rem;
+  display: flex;
+}
+/* Start Result */
+.result {
+  background: linear-gradient(
+    to bottom,
+    var(--light-slate-blue-background),
+    var(--light-royal-blue-background)
+  );
+  width: 50%;
+  border-radius: 1rem;
+  color: var(--white);
+  text-align: center;
+}
+.result-score-box {
+  margin: 0 auto;
+  padding: 2rem;
+}
+.result-score-box h5 {
+  font-size: 1.1rem;
+  color: var(--light-lavander);
+  margin-bottom: 2rem;
+}
+.circle {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto 1rem;
+  background: linear-gradient(
+    to bottom,
+    var(--violet-blue-circle),
+    var(--persian-blue)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.score-box {
+  margin-top: 3.5rem;
+}
+.score {
+  color: var(--white);
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.high-score {
+  color: var(--light-lavander);
+  font-size: 0.75rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+.evaluation-box {
+  margin-top: 1rem;
+}
+.evaluation {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+.evaluation-message {
+  font-size: 1rem;
+  color: var(--light-lavander);
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+/* End Result */
+/* Start Summary */
+.summary {
+  padding: 2rem;
+  width: 50%;
+}
+.summary h5 {
+  font-size: 1.1rem;
+  color: var(--dark-grey-blue);
+  font-weight: 800;
+}
+.summary-result {
+  width: 100%;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.reactions-box,
+.memory-box,
+.verbal-box,
+.visual-box {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  background-color: hsla(0, 100%, 80%, 0.25);
+}
+
+.reactions-score,
+.reactions,
+.memory,
+.memory-score,
+.verbal,
+.verbal-score,
+.visual,
+.visual-score {
+  display: flex;
+}
+.reactions img,
+.memory img,
+.verbal img,
+.visual img {
+  margin-right: 0.5rem;
+}
+.reactions-score,
+.verbal-score,
+.memory-score,
+.visual-score {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.reactions-text,
+.memory-text,
+.verbal-text,
+.visual-text {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.reactions-text {
+  color: hsla(0, 100%, 70%, 1);
+}
+.memory-text {
+  /* color: hsl(39, 100%, 50%); */
+  color: hsla(39, 100%, 50%, 1);
+}
+.verbal-text {
+  color: hsla(166, 100%, 35%, 1);
+}
+.visual-text {
+  color: hsl(234, 85%, 40%);
+}
+.reaction-result,
+.memory-result,
+.verbal-result,
+.visual-result {
+  color: hsl(224, 30%, 27%);
+  margin-right: 0.35rem;
+}
+.reactions-high-score,
+.memory-high-score,
+.verbal-high-score,
+.visual-high-score {
+  color: hsla(0, 0%, 65%, 1);
+  font-weight: 700;
+}
+/* End Summary */
+/* Start Button */
+.btn {
+  background-color: var(--dark-grey-blue);
+  color: var(--white);
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  margin: 1.5rem auto 0.5rem;
+  margin-left: 1rem;
+}
+.btn:hover {
+  background-color: var(--violet-blue-circle);
+  transition: all ease 400ms;
+  cursor: pointer;
+}
+/* End Button */
+.attribution {
+  padding: 0 3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.attribution a:hover {
+  text-decoration: underline;
+}
+/* End Main Page Style */
